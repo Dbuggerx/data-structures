@@ -1,0 +1,8 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "Some data-structures implemented in Typescript",
+  "main": "index.js",
+  "author": "Danilo Cestari <danilofcestari@gmail.com>",
+  "license": "MIT"
+}
