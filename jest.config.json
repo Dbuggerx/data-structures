@@ -1,0 +1,11 @@
+{
+  "collectCoverageFrom": ["**/*.{ts,tsx}", "!**/node_modules/**"],
+  "roots": ["<rootDir>/src/"],
+  "testRegex": "test\\.tsx?$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
+  "moduleDirectories": ["node_modules"],
+  "testURL": "http://localhost",
+  "transform": {
+    "^.+\\.tsx?$": "<rootDir>/babelJestCustomTransformer.js"
+  }
+}

@@ -4,5 +4,16 @@
   "description": "Some data-structures implemented in Typescript",
   "main": "index.js",
   "author": "Danilo Cestari <danilofcestari@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/jest": "^26.0.0",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "test": "jest --config jest.config.json"
+  }
 }
