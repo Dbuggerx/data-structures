@@ -1,0 +1,522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AVL Tree composite keys add adds nested nodes 1`] = `
+TreeNode {
+  "height": 3,
+  "key": DummyCompositeKey {
+    "id": 10,
+    "name": "aaa",
+  },
+  "left": TreeNode {
+    "height": 2,
+    "key": DummyCompositeKey {
+      "id": 9,
+      "name": "bbb",
+    },
+    "left": TreeNode {
+      "height": 1,
+      "key": DummyCompositeKey {
+        "id": 8,
+        "name": "ccc",
+      },
+      "value": "c",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": DummyCompositeKey {
+        "id": 9,
+        "name": "fff",
+      },
+      "value": "f",
+    },
+    "value": "b",
+  },
+  "right": TreeNode {
+    "height": 2,
+    "key": DummyCompositeKey {
+      "id": 10,
+      "name": "ddd",
+    },
+    "left": undefined,
+    "right": TreeNode {
+      "height": 1,
+      "key": DummyCompositeKey {
+        "id": 20,
+        "name": "eee",
+      },
+      "value": "e",
+    },
+    "value": "d",
+  },
+  "value": "a",
+}
+`;
+
+exports[`AVL Tree composite keys remove removes nested nodes 1`] = `
+TreeNode {
+  "height": 4,
+  "key": DummyCompositeKey {
+    "id": 9,
+    "name": "bbb",
+  },
+  "left": TreeNode {
+    "height": 3,
+    "key": DummyCompositeKey {
+      "id": 5,
+      "name": "fff",
+    },
+    "left": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 3,
+        "name": "jjj",
+      },
+      "left": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 2,
+          "name": "hhh",
+        },
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 4,
+          "name": "lll",
+        },
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 6,
+        "name": "ggg",
+      },
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 8,
+          "name": "ccc",
+        },
+        "left": undefined,
+        "value": "c",
+      },
+      "value": "g",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 3,
+    "key": DummyCompositeKey {
+      "id": 80,
+      "name": "iii",
+    },
+    "left": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 70,
+        "name": "mmm",
+      },
+      "left": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 10,
+          "name": "aaa",
+        },
+        "left": undefined,
+        "right": undefined,
+        "value": "a",
+      },
+      "right": undefined,
+      "value": "m",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 90,
+        "name": "ddd",
+      },
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 190,
+          "name": "eee",
+        },
+        "value": "e",
+      },
+      "value": "d",
+    },
+    "value": "i",
+  },
+  "value": "b",
+}
+`;
+
+exports[`AVL Tree composite keys remove removes nested nodes 2`] = `
+TreeNode {
+  "height": 4,
+  "key": DummyCompositeKey {
+    "id": 9,
+    "name": "bbb",
+  },
+  "left": TreeNode {
+    "height": 3,
+    "key": DummyCompositeKey {
+      "id": 5,
+      "name": "fff",
+    },
+    "left": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 3,
+        "name": "jjj",
+      },
+      "left": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 2,
+          "name": "hhh",
+        },
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 4,
+          "name": "lll",
+        },
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": DummyCompositeKey {
+        "id": 6,
+        "name": "ggg",
+      },
+      "left": undefined,
+      "right": undefined,
+      "value": "g",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 3,
+    "key": DummyCompositeKey {
+      "id": 80,
+      "name": "iii",
+    },
+    "left": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 70,
+        "name": "mmm",
+      },
+      "left": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 10,
+          "name": "aaa",
+        },
+        "left": undefined,
+        "right": undefined,
+        "value": "a",
+      },
+      "right": undefined,
+      "value": "m",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": DummyCompositeKey {
+        "id": 90,
+        "name": "ddd",
+      },
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": DummyCompositeKey {
+          "id": 190,
+          "name": "eee",
+        },
+        "value": "e",
+      },
+      "value": "d",
+    },
+    "value": "i",
+  },
+  "value": "b",
+}
+`;
+
+exports[`AVL Tree primitive keys add adds nested nodes 1`] = `
+TreeNode {
+  "height": 4,
+  "key": 9,
+  "left": TreeNode {
+    "height": 3,
+    "key": 5,
+    "left": TreeNode {
+      "height": 2,
+      "key": 3,
+      "left": TreeNode {
+        "height": 1,
+        "key": 2,
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 4,
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": 6,
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": 8,
+        "left": undefined,
+        "value": "c",
+      },
+      "value": "g",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 3,
+    "key": 90,
+    "left": TreeNode {
+      "height": 2,
+      "key": 70,
+      "left": TreeNode {
+        "height": 1,
+        "key": 10,
+        "left": undefined,
+        "right": undefined,
+        "value": "a",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 80,
+        "left": undefined,
+        "value": "i",
+      },
+      "value": "k",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": 190,
+      "value": "e",
+    },
+    "value": "d",
+  },
+  "value": "b",
+}
+`;
+
+exports[`AVL Tree primitive keys add adds nested nodes 2`] = `
+TreeNode {
+  "height": 4,
+  "key": 9,
+  "left": TreeNode {
+    "height": 3,
+    "key": 5,
+    "left": TreeNode {
+      "height": 2,
+      "key": 3,
+      "left": TreeNode {
+        "height": 1,
+        "key": 2,
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 4,
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": 7,
+      "left": TreeNode {
+        "height": 1,
+        "key": 6,
+        "left": undefined,
+        "right": undefined,
+        "value": "g",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 8,
+        "left": undefined,
+        "value": "c",
+      },
+      "value": "m",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 3,
+    "key": 90,
+    "left": TreeNode {
+      "height": 2,
+      "key": 70,
+      "left": TreeNode {
+        "height": 1,
+        "key": 10,
+        "left": undefined,
+        "right": undefined,
+        "value": "a",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 80,
+        "left": undefined,
+        "value": "i",
+      },
+      "value": "k",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": 190,
+      "value": "e",
+    },
+    "value": "d",
+  },
+  "value": "b",
+}
+`;
+
+exports[`AVL Tree primitive keys remove removes nested nodes 1`] = `
+TreeNode {
+  "height": 4,
+  "key": 10,
+  "left": TreeNode {
+    "height": 3,
+    "key": 5,
+    "left": TreeNode {
+      "height": 2,
+      "key": 3,
+      "left": TreeNode {
+        "height": 1,
+        "key": 2,
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 4,
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": 6,
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": 8,
+        "left": undefined,
+        "value": "c",
+      },
+      "value": "g",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 3,
+    "key": 90,
+    "left": TreeNode {
+      "height": 2,
+      "key": 70,
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": 80,
+        "left": undefined,
+        "value": "i",
+      },
+      "value": "k",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": 190,
+      "value": "e",
+    },
+    "value": "d",
+  },
+  "value": "a",
+}
+`;
+
+exports[`AVL Tree primitive keys remove removes nested nodes 2`] = `
+TreeNode {
+  "height": 4,
+  "key": 10,
+  "left": TreeNode {
+    "height": 3,
+    "key": 5,
+    "left": TreeNode {
+      "height": 2,
+      "key": 3,
+      "left": TreeNode {
+        "height": 1,
+        "key": 2,
+        "right": undefined,
+        "value": "h",
+      },
+      "right": TreeNode {
+        "height": 1,
+        "key": 4,
+        "value": "l",
+      },
+      "value": "j",
+    },
+    "right": TreeNode {
+      "height": 2,
+      "key": 6,
+      "left": undefined,
+      "right": TreeNode {
+        "height": 1,
+        "key": 8,
+        "left": undefined,
+        "value": "c",
+      },
+      "value": "g",
+    },
+    "value": "f",
+  },
+  "right": TreeNode {
+    "height": 2,
+    "key": 90,
+    "left": TreeNode {
+      "height": 1,
+      "key": 70,
+      "left": undefined,
+      "right": undefined,
+      "value": "k",
+    },
+    "right": TreeNode {
+      "height": 1,
+      "key": 190,
+      "value": "e",
+    },
+    "value": "d",
+  },
+  "value": "a",
+}
+`;

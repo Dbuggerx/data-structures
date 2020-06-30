@@ -1,5 +1,5 @@
 {
-  "collectCoverageFrom": ["**/*.{ts,tsx}", "!**/node_modules/**"],
+  "collectCoverageFrom": ["**/*.{ts,tsx}", "!**/types.ts", "!**/node_modules/**"],
   "roots": ["<rootDir>/src/"],
   "testRegex": "test\\.tsx?$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
